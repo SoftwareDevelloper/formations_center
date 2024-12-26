@@ -1,0 +1,35 @@
+.table th, .table td {
+    vertical-align: middle;
+  }
+  
+ 
+  
+  .modal-body form {
+    margin-top: 10px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .fw-bold{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(36, 36, 36);
+    height: 80px;
+    border-radius: 50px;
+    letter-spacing: 25px;
+    font-size: 50px;
+  }
+  .add{
+    margin-top: 2%;
+    width: 500px;
+    height: 60px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    margin-left: 30%;
+
+  }
+  

@@ -1,0 +1,20 @@
+<app-header></app-header>
+<div class="container d-flex justify-content-center align-items-center vh-100">
+  <div class="card shadow-lg p-5" style="width: 450px; border-radius: 20px;">
+    <h3 class="text-center h3">Post new internote</h3>
+    <form (ngSubmit)="onAddInternote()">
+      <!-- Nom -->
+      <div class="mb-3">
+        <label for="login" class="form-label">Login</label>
+        <input type="text" class="form-control" [(ngModel)]="internotes.login" [ngModelOptions]="{standalone: true}" id="login" required />
+        <label for="password" class="form-label">Password</label>
+        <input type="text" class="form-control" [(ngModel)]="internotes.password" [ngModelOptions]="{standalone: true}" id="password" required />
+        <label for="role" class="form-label">Role</label>
+        <input type="text" class="form-control" [(ngModel)]="internotes.role" [ngModelOptions]="{standalone: true}" id="role" required />
+        
+      </div>
+
+      <button type="submit" class="add btn btn-primary">Add</button>
+    </form>
+  </div>
+</div>

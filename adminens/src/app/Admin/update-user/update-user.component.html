@@ -1,0 +1,29 @@
+<app-header></app-header>
+<div class="container d-flex justify-content-center align-items-center vh-100">
+  <div class="card shadow-lg p-5" style="width: 450px; border-radius: 20px;">
+    <h3 class="text-center h3">Update user</h3>
+    <form (ngSubmit)=" onUpdateUser(users.email)">
+      <!-- Nom -->
+      <div class="mb-3">
+        <label for="nom" class="form-label">Nom</label>
+        <input type="text" class="form-control" [(ngModel)]="users.nom" [ngModelOptions]="{standalone: true}" id="nom" required />
+        <label for="prenom" class="form-label">Prenom</label>
+        <input type="text" class="form-control" [(ngModel)]="users.prenom" [ngModelOptions]="{standalone: true}" id="prenom" required />
+        <label for="adresse" class="form-label">Adresse</label>
+        <input type="text" class="form-control" [(ngModel)]="users.adresse" [ngModelOptions]="{standalone: true}" id="adresse" required />
+        <label for="telephone" class="form-label">Telephone</label>
+        <input type="text" class="form-control" [(ngModel)]="users.telephone" [ngModelOptions]="{standalone: true}" id="telephone" required />
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" [(ngModel)]="users.email" [ngModelOptions]="{standalone: true}" id="email" required />
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" [(ngModel)]="users.password" [ngModelOptions]="{standalone: true}" id="password" required />
+        <label for="confirmPassword" class="form-label">Confirm Password</label>
+        <input type="password" class="form-control" [(ngModel)]="users.confirmPassword" [ngModelOptions]="{standalone: true}" id="confirmPassword" required />
+        <label for="niveau" class="form-label">Niveau</label>
+        <input type="text" class="form-control" [(ngModel)]="users.niveau" [ngModelOptions]="{standalone: true}" id="niveau" required />
+      </div>
+
+      <button type="submit" class="add btn btn-success">update</button>
+    </form>
+  </div>
+</div>

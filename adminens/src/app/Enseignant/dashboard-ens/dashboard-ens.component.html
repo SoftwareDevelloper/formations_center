@@ -1,0 +1,13 @@
+<app-header-ens></app-header-ens>
+
+<form (ngSubmit)="addFormation()">
+    <input type="text" [(ngModel)]="formation.title" placeholder="Title" name="title" required />
+    <input type="text" [(ngModel)]="formation.description" placeholder="Description" name="description" required />
+    <input type="text" [(ngModel)]="formation.typeFormation" placeholder="Type Formation" name="typeFormation" required />
+    <input type="number" [(ngModel)]="formation.duree" placeholder="Duration" name="duree" required />
+    
+    <!-- Corrected to use the onImageSelect method -->
+    <input type="file" (change)="onImageSelect($event)" name="imageUrl" />
+    
+    <button type="submit">Add Formation</button>
+</form>
