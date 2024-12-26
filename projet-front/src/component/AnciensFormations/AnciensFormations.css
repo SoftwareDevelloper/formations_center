@@ -1,0 +1,13 @@
+.Title{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 180px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.img{
+justify-content: center;
+align-items: center;
+width: 1050px;
+margin-left: 18%;
+}

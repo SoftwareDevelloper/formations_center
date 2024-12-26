@@ -1,0 +1,40 @@
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 13%;
+}
+
+.map-container {
+    width: 50%;
+    height: 250px;
+    border-radius: 100px;
+    overflow: hidden;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+
+}
+
+.contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #081542;
+}
+
+.contact-item {
+    font-size: 13px;
+}

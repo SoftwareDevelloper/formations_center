@@ -1,0 +1,58 @@
+.connect{
+background: linear-gradient(90deg, #06B4FF 0%, #A7E0F9 100%);
+border-radius: 50px;
+font-size: 18px;
+width: 138px ;
+height: 33px; 
+border-bottom: 5px solid #06B4FF;
+display: inline-block;
+-webkit-touch-callout:none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+.profile{
+background: linear-gradient(90deg, #064CFF 0%, #15255B 100%);
+border-radius: 50px;
+font-size: 18px;
+width: 138px ;
+height: 40px; 
+border-bottom: 5px solid #143ac4;
+display: inline-block;
+-webkit-touch-callout:none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+.profile:hover{
+    cursor: hand; 
+    cursor: pointer;   
+}
+.profile:active{
+    border-bottom: 3px solid #00074d;
+    top: 3px;
+}
+.connect:hover{
+    cursor: hand; 
+    cursor: pointer;
+}
+    
+.connect:active{
+    border-bottom: 3px solid #00074d;
+    top: 3px;
+}
+.title{
+    font-size: 18px;
+}
+.img3d{
+    transition: transform 0.5s ease; 
+    transform-style: preserve-3d;
+}
+.img3d:hover {
+    transform: rotateY(40deg) rotateX(30deg) rotateZ(20deg) scale(1.8); 
+    
+  }
